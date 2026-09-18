@@ -43,7 +43,7 @@ console.log(`Resultado: ${dobro}`);
 let dividendo = 100;
 let divisor = 3;
 let divisao= dividendo / divisor;
-let resto = dividendo - divisor*divisao;
+let resto = 100 % 3;
 
 
 console.log(`Dividendo: ${dividendo}`);
@@ -52,5 +52,30 @@ console.log(`Resultado: ${divisao}`);
 console.log(`Resto: ${resto}`);
 
 // 8 (preço e desconto)
+let preco = 50;
+let porcentagem = 20;
+let desconto = (preco * porcentagem) /100;
+let total = preco - desconto;
+
+console.log(preco);
+console.log(porcentagem);
+console.log(desconto);
+console.log(total);
+
+// 9 (idade em meses)
+let idade = 16;
+let meses = 12;
+let conversao = 12 * idade;
+
+console.log(`Idade: ${idade}`);
+console.log(`Meses por ano: ${meses}`);
+console.log(`Equivalente a ${conversao} meses`);
+
+// 10 (quadrado de um número)
+let valor = 81;
+let raiz = Math.sqrt(valor);
+
+console.log(`Raiz quadrada de: ${valor}`);
+console.log(`Resultado: ${raiz}`);
 
 
