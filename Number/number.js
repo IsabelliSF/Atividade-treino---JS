@@ -32,3 +32,25 @@ console.log(nota1);
 console.log(nota2);
 console.log(soma);
 console.log(media);
+
+// 6 (dobro)
+let numero = 45;
+let dobro = 45 * 2;
+
+console.log(`Resultado: ${dobro}`);
+
+// 7 (resto da divisão)
+let dividendo = 100;
+let divisor = 3;
+let divisao= dividendo / divisor;
+let resto = dividendo - divisor*divisao;
+
+
+console.log(`Dividendo: ${dividendo}`);
+console.log(`Divisor: ${divisor}`);
+console.log(`Resultado: ${divisao}`);
+console.log(`Resto: ${resto}`);
+
+// 8 (preço e desconto)
+
+
